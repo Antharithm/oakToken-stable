@@ -8,7 +8,7 @@ module.exports = {
   networks: {
     goerli: {
 
-      url: process.env.ALCHEMY_ENDPOINT,
+      url: process.env.NODE_ENDPOINT,
       accounts: [process.env.PRIVATE_KEY]
     }
   },
